@@ -1,0 +1,11 @@
+# -- 其他无关目录
+/cmake-build-debug
+.idea
+/build
+# -- 编译中间代码
+*.o
+*.i
+*.obj
+
+# -- 日志
+*.log

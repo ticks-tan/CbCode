@@ -3,4 +3,5 @@ project(CbCode C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(CbCode main.c)
+add_executable(CbCode
+        OS/ShellTest/shell_test.c)
